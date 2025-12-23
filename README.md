@@ -1,11 +1,4 @@
-<<<<<<< HEAD
-# Automatizacion_Reporte_Appa_Test
-<<<<<<< HEAD
-# Automatizacion_Reporte_Appa_Test
-=======
 
-=======
->>>>>>> cc51565778160f2f1e6a486d45221e980bcfe543
 # 🧪 QA Automation – Playwright + TypeScript (POM)
 
 [![Playwright](https://img.shields.io/badge/Playwright-Automation-green)](https://playwright.dev/)
