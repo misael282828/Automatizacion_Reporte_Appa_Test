@@ -1,0 +1,42 @@
+https://the-internet.herokuapp.com/tinymce
+: Borre y escriba un texto en negritas, céntrelo y cambie el color del texto ya escrito a rojo, guarde el texto y devuélvalo en un string.
+
+nota estaba teniendo error al intentar editar el tiny de herokuapp.
+https://www.tiny.cloud/docs/tinymce/latest/basic-example/
+
+
+
+https://the-internet.herokuapp.com/nested_frames
+: Imprima los diferentes textos de los iframes.
+
+https://the-internet.hero1kuapp.com/windows
+: Haga click en Click Here, cierre la pestaña anterior e imprima el texto que aparece en la siguiente pestaña (New Window).
+
+Tareas:
+
+Diseñe un plan de prueba y sus diferentes casos manuales.
+
+Automatice los flujos de trabajo mencionados arriba utilizando Selenium Python, JavaScript o Cypress (Evite utilizar inputs estáticos, puede ingresar la fecha y hora actual).
+
+Diseño de c 
+
+Crear test suite de las pruebas mencionadas.
+
+Utilice metodología POM (Page Object Model).
+
+Suba sus cambios a un controlador de versiones en conjunto con un README explicando cómo correr las pruebas
+
+
+
+npx playwright test --grep @smoke
+npx playwright test --grep @component
+npx playwright test --grep @regression
+
+
+npx playwright test tests/nestedFrames.spec.ts
+npx playwright test tests/windows.spec.ts
+
+npx playwright test
+
+npx playwright test --headed
+npx playwright test --project=chromium
